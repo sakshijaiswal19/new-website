@@ -10,6 +10,7 @@ body{
     display: flex;
     align-items: center;
     padding: 20px;
+
 }
 nav{
     flex: 1;
@@ -19,7 +20,13 @@ nav li{
     display: inline;
     list-style: none;
     margin-right: 20px;
+   
 }
+ #Menuitems a{
+text-decoration: none;
+color: #fff;
+}
+
 .container{
     max-width: 1300px;
     margin:auto;
@@ -330,7 +337,8 @@ cursor: pointer;
          position: absolute;
          top:70px;
          left:0;
-         background:rgb(202, 16, 16);
+         background:#222;
+         color: #fff;
          width:100%;
          overflow: hidden;
          transition: max-height 0.5s;
